@@ -92,7 +92,7 @@ In the Settings panel:
 
 ### Example: Gemini 
 
-- **Model Name**: `google/gemini-1.5-flash`
+- **Model Name**: `gemini/gemini-1.5-flash`
 - **Environment Variables**:
   - Name: `GEMINI_API_KEY`
   - Value: `your-gemini-api-key`
