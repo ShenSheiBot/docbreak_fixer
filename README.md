@@ -80,7 +80,7 @@ By default, this app has a **Rule-based Detector** that looks for potential line
   - **Model Name**  
   - **Environment Variables** (for example, your API key)
 
-To see a full list of supported models and environment variables, check [the LiteLLM OpenAI docs](https://docs.litellm.ai/docs/providers/openai).  
+To see a full list of supported models and environment variables, check [the LiteLLM Supported Models docs](https://docs.litellm.ai/docs/providers/openai).  
 
 ### Example: OpenAI GPT-3.5
 
@@ -90,15 +90,12 @@ In the Settings panel:
   - Name: `OPENAI_API_KEY`
   - Value: `sk-your-openai-key`
 
-### Example: Gemini (hypothetical)
+### Example: Gemini 
 
-If Gemini (Google’s upcoming model) becomes available via LiteLLM, you might do:
-- **Model Name**: `google/gemini`
+- **Model Name**: `google/gemini-1.5-flash`
 - **Environment Variables**:
-  - Name: `GOOGLE_API_KEY`
-  - Value: `your-google-api-key`
-
-*(These details may change based on actual Gemini availability—refer to the official provider docs when it launches.)*
+  - Name: `GEMINI_API_KEY`
+  - Value: `your-gemini-api-key`
 
 ---
 
