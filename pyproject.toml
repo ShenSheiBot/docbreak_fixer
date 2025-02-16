@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "docbreak-fixer"
+version = "0.1.0"
+description = "Document linebreak detection and fixing tool"
+authors = ["Your Name <your.email@example.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "0.115.8"
+uvicorn = {extras = ["standard"], version = "^0.34.0"}
+python-docx = "^0.8.11"
+loguru = "^0.7.0"
+pyyaml = "^6.0.1"
+python-multipart = "^0.0.6"
+jinja2 = "^3.1.2"
+openai = "^1.63.0"
+litellm = "^1.61.5"
+sse-starlette = "^2.2.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
